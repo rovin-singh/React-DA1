@@ -1,9 +1,12 @@
 import "./styles.css";
-import TodoApp from "./components/TodoApp";
-export default function App() {
+import Mobile from "./components/Mobile";
+import Navbar from "./components/Navbar";
+function App() {
   return (
     <div className="App">
-      <TodoApp />
+      <Mobile />
+      <Navbar />
     </div>
   );
 }
+export default App;
